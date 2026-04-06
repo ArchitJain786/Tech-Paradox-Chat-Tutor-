@@ -157,7 +157,7 @@ def call_gemini(messages, system_prompt):
         return "Please add your Google Gemini API key in the settings."
     
     try:
-        model = genai.GenerativeModel(model_name="gemini-1.5-pro")
+        model = genai.GenerativeModel(model_name="gemini-pro")
         
         # Prepare messages with system instruction
         formatted_messages = []
